@@ -14,7 +14,7 @@ It is a simple to use command-line program. In most cases the following command 
 # Run
 
 - Download the 3 files included in <code>bin</code> folder
-- Put in any local folder (no installation required)
+- Save them in any local folder (no installation required)
 - Connect your Fender Mustang amplifies via USB and power on it
 - From Command Prompt run
   - <code>mustang_midi</code> to list the available MIDI interfaces/ports
@@ -22,4 +22,12 @@ It is a simple to use command-line program. In most cases the following command 
 
 
 # Compile
+
+You don't need to compile anything because we provide binary files. However if you want build it from scratch, contribute or customize something I used the following steps.
+
+  - Download and install [Visual Studio 2019](https://visualstudio.microsoft.com/en/vs/) (any version). I used the free Community Edition.
+  - During installation it is enough to select "Desktop Development with C++" option
+  - Run Visual Studio 2019
+  - Clone the git repository (everything you need is included)
+  - Open the Solution file <code>mustang-midi-bridge-win.sln</code>
 
