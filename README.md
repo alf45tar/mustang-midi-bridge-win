@@ -1,6 +1,6 @@
 # mustang-midi-bridge-win
 
-This application enables any Windows computer to translate [MIDI messages](/blob/master/doc/MIDX20_Midi_Spec.pdf) to the proprietary [USB protocol](/blob/master/doc/fender_mustang_protocol.txt) used by Fender Mustang amplifiers.
+This application enables any Windows computer to translate [MIDI messages](/doc/MIDX20_Midi_Spec.pdf) to the proprietary [USB protocol](/doc/fender_mustang_protocol.txt) used by Fender Mustang amplifiers.
 
 It is porting of https://github.com/snhirsch/mustang-midi-bridge to Windows.
 
@@ -10,7 +10,7 @@ It is a simple to use command-line program. In most cases the following command 
 
 <code>mustang_midi 0 1</code>
 
-The complete MIDI implementation is [here](/blob/master/doc/MIDX20_Midi_Spec.pdf).
+The complete MIDI implementation is [here](/doc/MIDX20_Midi_Spec.pdf).
 
 # Run
 
