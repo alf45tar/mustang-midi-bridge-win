@@ -1,6 +1,6 @@
 # mustang-midi-bridge-win
 
-This application enables any Windows computer to translate MIDI messages to the proprietary USB protocol used by Fender Mustang amplifiers.
+This application enables any Windows computer to translate [MIDI messages](/doc/MIDX20_Midi_Spec.pdf) to the proprietary [USB protocol](/doc/fender_mustang_protocol.txt) used by Fender Mustang amplifiers.
 
 It is porting of https://github.com/snhirsch/mustang-midi-bridge to Windows.
 
@@ -10,13 +10,14 @@ It is a simple to use command-line program. In most cases the following command 
 
 <code>mustang_midi 0 1</code>
 
+The complete MIDI implementation is [here](/doc/MIDX20_Midi_Spec.pdf).
 
 # Run
 
 - Download the 3 files included in <code>bin</code> folder
 - Save them in any local folder (no installation required)
 - Connect your Fender Mustang amplifies via USB and power on it
-- From Command Prompt run
+- From [Command Prompt](https://www.howtogeek.com/235101/10-ways-to-open-the-command-prompt-in-windows-10/) run
   - <code>mustang_midi</code> to list the available MIDI interfaces/ports
   - <code>mustang_midi 0 1</code> to start listen to port 0 and MIDI channel 1.
 
@@ -25,9 +26,9 @@ It is a simple to use command-line program. In most cases the following command 
 
 You don't need to compile anything because we provide binary files. However if you want build it from scratch, contribute or customize something I used the following steps.
 
-  - Download and install [Visual Studio 2019](https://visualstudio.microsoft.com/en/vs/) (any version). I used the free Community Edition.
+  - Download and install [Visual Studio 2019](https://visualstudio.microsoft.com/en/vs/) (any version). I used the free Community edition.
   - During installation it is enough to select "Desktop Development with C++" option
   - Run Visual Studio 2019
-  - Clone the git repository (everything you need is included)
+  - Clone this github repository https://github.com/alf45tar/mustang-midi-bridge-win (everything you need is included)
   - Open the Solution file <code>mustang-midi-bridge-win.sln</code>
 
