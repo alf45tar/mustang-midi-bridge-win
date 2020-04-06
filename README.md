@@ -8,7 +8,7 @@ It is tested only under Windows 10 but there is no fancy requirements. It should
 
 It is a simple to use command-line program. In most cases the following command is enough.
 
-<code>mustang_midi 0 1</code>
+<code>mustang_midi.exe 0 1</code>
 
 The complete MIDI implementation is [here](/doc/MIDX20_Midi_Spec.pdf).
 
@@ -18,8 +18,8 @@ The complete MIDI implementation is [here](/doc/MIDX20_Midi_Spec.pdf).
 - Save them in any local folder (no installation required)
 - Connect your Fender Mustang amplifies via USB and power on it
 - From [Command Prompt](https://www.howtogeek.com/235101/10-ways-to-open-the-command-prompt-in-windows-10/) run
-  - <code>mustang_midi</code> to list the available MIDI interfaces/ports
-  - <code>mustang_midi 0 1</code> to start listen to port 0 and MIDI channel 1.
+  - <code>mustang_midi.exe</code> to list the available MIDI interfaces/ports
+  - <code>mustang_midi.exe 0 1</code> to start listen to port 0 and MIDI channel 1.
 
 
 # Compile
