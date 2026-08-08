@@ -1,3 +1,6 @@
+### If you're looking for a modern alternative to the old Fender FUSE software, check out [Mustang Amp Control](https://mustang.artnettune.com). It’s a full replacement for legacy Fender Mustang amps and includes a built-in MIDI bridge which works directly in the browser.
+
+
 # mustang-midi-bridge-win
 
 This application enables any Windows computer to translate [MIDI messages](/doc/MIDX20_Midi_Spec.pdf) to the proprietary [USB protocol](/doc/fender_mustang_protocol.txt) used by Fender Mustang amplifiers.
